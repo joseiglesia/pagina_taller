@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seguridad Informatica</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            background-color: #5ee8eb;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+        
+        p {
+            text-align: justify;
+            margin: 0 1cm 1cm;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #b0d0ae;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: rgb(17, 15, 15);
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidebar a:hover {
+            color: #f7f1f1;
+        }
+        
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+        }
+        
+        .openbtn {
+            margin: 0 1cm 1cm;
+            font-size: 40px;
+            cursor: pointer;
+            background-color: #111;
+            color: white;
+            padding: 20px 30px;
+            border: none;
+        }
+        
+        #main {
+            transition: margin-left 0.5s;
+            padding: 16px;
+        }
+        
+        .back-button {
+            font-size: 24px;
+            padding: 15px 30px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+        li {
+            text-align: justify;
+            margin: 0 1cm;
+        }
+        
+        header {
+            background-color: #f4db02;
+            color: #030303;
+            padding: 20px;
+            text-align: center;
+            margin-top: 0;
+        }
+        
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="sidebar" class="sidebar">
+
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ol>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="Consejos_Generales_de_Seguridad.html">Consejos Generales de Seguridad</a></li>
+            <li><a href="proteccion_contraseñas.html">Proteccion de Contraseñas</a></li>
+            <li><a href="seguridad_redes_sociales.html">Seguridad en Redes Sociales</a></li>
+            <li><a href="proteccion_contra_malware.html">Proteccion contra Malware</a></li>
+            <li><a href="recursos_y_enlaces_utiles.html">Recursos y enlaces utiles</a></li>
+        </ol>
+    </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Mas Información</button>
+
+        <script src="script.js"></script>
+
+        <h1>
+            <br>Proteccion de Contraseñas
+        </h1>
+        <p>
+            Las contraseñas son la primera línea de defensa contra el acceso no autorizado de archivos, dispositivos y cuentas en línea. Las contraseñas seguras ayudan a proteger los datos de usuarios y software malintencionados. Cuanto más segura sea la contraseña,
+            más protegida estará la información. El uso de contraseñas no seguras se parece mucho a dejar abierta la puerta del coche o tu casa: simplemente no es seguro.
+            <center><img src="img/passw.jpeg" class="card-img-top" alt=""></center>
+
+        </p>
+        <p>
+            Concecuencias: la pérdida de valiosa información personal, financiera y médica puede tener repercusiones económicas y reputacionales duraderas. Es posible que las víctimas no puedan comprar un coche, alquilar un piso o conseguir una hipoteca; e incluso
+            pueden llegar a denegarles servicios médicos críticos. Para muchos, restaurar su reputación y volver a tener una vida normal tendrá un coste de tiempo y dinero.
+        </p>
+        <h1>
+            ¿Como se roban las contraseñas?
+        </h1>
+        <p>
+            <ul>
+                <li>Ataques por fuerza bruta, un método que utiliza un sistema de prueba y error para descifrar contraseñas y credenciales de inicio de sesión, para obtener acceso no autorizado a cuentas y sistemas.</li>
+                <li>Registro de pulsaciones de teclas, el uso de un programa de software para realizar un seguimiento de las pulsaciones de teclas de un usuario para robar PIN, números de tarjeta de crédito, nombres de usuario, contraseñas, etc.</li>
+                <li>Relleno de credenciales, el uso automatizado de nombres de usuario y contraseñas robados para obtener acceso no autorizado a cuentas en línea.</li>
+            </ul>
+        </p>
+        <h1>
+            ¿Como protegerse contra los hackers?
+        </h1>
+        <p>
+            Es más importante usar contraseñas seguras. Los hackers buscan constantemente contraseñas, ya que tienen un valor económico considerable. Las brechas de datos y las filtraciones de contraseñas dejan a cientos de cuentas vulnerables para que los cibercriminales
+            accedan a ellas.
+            <ul>
+                <li>Utilizar contraseñas seguras en todos los dispositivos y cuentas.</li>
+                <li>Desconfiar de los enlaces y los archivos adjuntos.</li>
+                <li>Evitar acceder a datos personales y financieros con una Wi-Fi pública.</li>
+                <li>Instalar software antivirus y antimalware en todos los dispositivos.
+                </li>
+            </ul>
+            <center><img src="img/username.jpeg" class="card-img-top" alt=""></center>
+        </p>
+        <footer>
+            <header>
+                <p>Correo de contacto para mayor informacion: morenoiglesiajosealberto@gmail.com</p>
+                <p>&copy; 2024 Seguridad Informatica. Todos los derechos reservados.</p>
+                <p>Autor de sitio: Moreno Iglesia Jose Alberto</p>
+            </header>
+        </footer>
+    </div>
+</body>
+
+</html>
